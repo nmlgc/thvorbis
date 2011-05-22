@@ -1,0 +1,161 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thvorbis", "projects\thvorbis.vcproj", "{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93} = {DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dsound", "projects\dsound.vcproj", "{0824F904-C673-4F55-A9F3-CCE2FD13820E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thvorbis_kog", "projects\winmm.vcproj", "{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93} = {DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "patchlib", "projects\patchlib.vcproj", "{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thvorbis_th06", "projects\thvorbis_th06.vcproj", "{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93} = {DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "th_nomusic", "projects\th_nomusic.vcproj", "{0A0D80EB-E147-4C93-9BC4-68D482259217}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thvorbis_th075", "projects\thvorbis_th075.vcproj", "{D00975D0-916C-4A36-AA60-BF8D0498CBE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Generic|Win32 = Debug Generic|Win32
+		Debug KOG|Win32 = Debug KOG|Win32
+		Debug NoMusic|Win32 = Debug NoMusic|Win32
+		Debug TH06|Win32 = Debug TH06|Win32
+		Debug TH075|Win32 = Debug TH075|Win32
+		Debug TH13|Win32 = Debug TH13|Win32
+		Release Generic|Win32 = Release Generic|Win32
+		Release KOG|Win32 = Release KOG|Win32
+		Release NoMusic|Win32 = Release NoMusic|Win32
+		Release TH06|Win32 = Release TH06|Win32
+		Release TH075|Win32 = Release TH075|Win32
+		Release TH13|Win32 = Release TH13|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Debug Generic|Win32.ActiveCfg = Debug|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Debug Generic|Win32.Build.0 = Debug|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Debug KOG|Win32.ActiveCfg = Debug|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Debug NoMusic|Win32.ActiveCfg = Debug|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Debug TH06|Win32.ActiveCfg = Debug|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Debug TH075|Win32.ActiveCfg = Debug|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Debug TH13|Win32.ActiveCfg = Debug|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Debug TH13|Win32.Build.0 = Debug|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Release Generic|Win32.ActiveCfg = Release|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Release Generic|Win32.Build.0 = Release|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Release KOG|Win32.ActiveCfg = Release|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Release NoMusic|Win32.ActiveCfg = Release|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Release TH06|Win32.ActiveCfg = Release|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Release TH075|Win32.ActiveCfg = Release|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Release TH13|Win32.ActiveCfg = Release|Win32
+		{305A97DF-83B6-48B2-BCF7-8A3C11967EFE}.Release TH13|Win32.Build.0 = Release|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Debug Generic|Win32.ActiveCfg = Debug Generic|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Debug Generic|Win32.Build.0 = Debug Generic|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Debug KOG|Win32.ActiveCfg = Debug KOG|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Debug KOG|Win32.Build.0 = Debug KOG|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Debug NoMusic|Win32.ActiveCfg = Debug Generic|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Debug TH06|Win32.ActiveCfg = Debug Generic|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Debug TH075|Win32.ActiveCfg = Debug Generic|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Debug TH13|Win32.ActiveCfg = Debug TH13|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Debug TH13|Win32.Build.0 = Debug TH13|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Release Generic|Win32.ActiveCfg = Release Generic|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Release Generic|Win32.Build.0 = Release Generic|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Release KOG|Win32.ActiveCfg = Release KOG|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Release KOG|Win32.Build.0 = Release KOG|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Release NoMusic|Win32.ActiveCfg = Release Generic|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Release TH06|Win32.ActiveCfg = Release Generic|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Release TH075|Win32.ActiveCfg = Release Generic|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Release TH13|Win32.ActiveCfg = Release TH13|Win32
+		{0824F904-C673-4F55-A9F3-CCE2FD13820E}.Release TH13|Win32.Build.0 = Release TH13|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Debug Generic|Win32.ActiveCfg = Debug|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Debug KOG|Win32.ActiveCfg = Debug|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Debug KOG|Win32.Build.0 = Debug|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Debug NoMusic|Win32.ActiveCfg = Debug|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Debug TH06|Win32.ActiveCfg = Debug|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Debug TH075|Win32.ActiveCfg = Debug|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Debug TH13|Win32.ActiveCfg = Debug|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Release Generic|Win32.ActiveCfg = Release|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Release KOG|Win32.ActiveCfg = Release|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Release KOG|Win32.Build.0 = Release|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Release NoMusic|Win32.ActiveCfg = Release|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Release TH06|Win32.ActiveCfg = Release|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Release TH075|Win32.ActiveCfg = Release|Win32
+		{76581C15-FE1B-4E90-9CD0-EE3C8D4F291F}.Release TH13|Win32.ActiveCfg = Release|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Debug Generic|Win32.ActiveCfg = Debug|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Debug Generic|Win32.Build.0 = Debug|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Debug KOG|Win32.ActiveCfg = Debug|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Debug KOG|Win32.Build.0 = Debug|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Debug NoMusic|Win32.ActiveCfg = Debug|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Debug NoMusic|Win32.Build.0 = Debug|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Debug TH06|Win32.ActiveCfg = Debug|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Debug TH06|Win32.Build.0 = Debug|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Debug TH075|Win32.ActiveCfg = Debug|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Debug TH075|Win32.Build.0 = Debug|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Debug TH13|Win32.ActiveCfg = Debug|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Debug TH13|Win32.Build.0 = Debug|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Release Generic|Win32.ActiveCfg = Release|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Release Generic|Win32.Build.0 = Release|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Release KOG|Win32.ActiveCfg = Release|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Release KOG|Win32.Build.0 = Release|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Release NoMusic|Win32.ActiveCfg = Release|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Release NoMusic|Win32.Build.0 = Release|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Release TH06|Win32.ActiveCfg = Release|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Release TH06|Win32.Build.0 = Release|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Release TH075|Win32.ActiveCfg = Release|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Release TH075|Win32.Build.0 = Release|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Release TH13|Win32.ActiveCfg = Release|Win32
+		{DC299C40-1EE0-4EC3-AE2A-DC84B177CA93}.Release TH13|Win32.Build.0 = Release|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Debug Generic|Win32.ActiveCfg = Debug|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Debug KOG|Win32.ActiveCfg = Debug|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Debug NoMusic|Win32.ActiveCfg = Debug|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Debug TH06|Win32.ActiveCfg = Debug|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Debug TH06|Win32.Build.0 = Debug|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Debug TH075|Win32.ActiveCfg = Debug|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Debug TH13|Win32.ActiveCfg = Debug|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Release Generic|Win32.ActiveCfg = Release|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Release KOG|Win32.ActiveCfg = Release|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Release NoMusic|Win32.ActiveCfg = Release|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Release TH06|Win32.ActiveCfg = Release|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Release TH06|Win32.Build.0 = Release|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Release TH075|Win32.ActiveCfg = Release|Win32
+		{B8BA7CA4-4123-403C-829D-4E3F78F45C0A}.Release TH13|Win32.ActiveCfg = Release|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Debug Generic|Win32.ActiveCfg = Debug|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Debug KOG|Win32.ActiveCfg = Debug|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Debug NoMusic|Win32.ActiveCfg = Debug|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Debug NoMusic|Win32.Build.0 = Debug|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Debug TH06|Win32.ActiveCfg = Debug|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Debug TH075|Win32.ActiveCfg = Debug|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Debug TH13|Win32.ActiveCfg = Debug|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Release Generic|Win32.ActiveCfg = Release|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Release KOG|Win32.ActiveCfg = Release|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Release NoMusic|Win32.ActiveCfg = Release|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Release NoMusic|Win32.Build.0 = Release|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Release TH06|Win32.ActiveCfg = Release|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Release TH075|Win32.ActiveCfg = Release|Win32
+		{0A0D80EB-E147-4C93-9BC4-68D482259217}.Release TH13|Win32.ActiveCfg = Release|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Debug Generic|Win32.ActiveCfg = Debug|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Debug KOG|Win32.ActiveCfg = Debug|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Debug NoMusic|Win32.ActiveCfg = Debug|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Debug TH06|Win32.ActiveCfg = Debug|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Debug TH075|Win32.ActiveCfg = Debug|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Debug TH075|Win32.Build.0 = Debug|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Debug TH13|Win32.ActiveCfg = Debug|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Release Generic|Win32.ActiveCfg = Release|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Release KOG|Win32.ActiveCfg = Release|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Release NoMusic|Win32.ActiveCfg = Release|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Release TH06|Win32.ActiveCfg = Release|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Release TH075|Win32.ActiveCfg = Release|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Release TH075|Win32.Build.0 = Release|Win32
+		{D00975D0-916C-4A36-AA60-BF8D0498CBE3}.Release TH13|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

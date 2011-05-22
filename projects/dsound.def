@@ -1,0 +1,5 @@
+LIBRARY
+EXPORTS
+	DirectSoundCreate @1
+	DirectSoundEnumerateA @2
+	DirectSoundCreate8 @11

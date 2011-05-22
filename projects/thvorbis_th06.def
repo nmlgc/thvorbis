@@ -1,0 +1,19 @@
+LIBRARY
+EXPORTS
+; dsound
+		DirectSoundCreate8 @11
+; winmm
+		mmioAdvance
+		mmioAscend
+		mmioClose
+		mmioDescend
+		mmioGetInfo
+		mmioOpenA
+		mmioOpenW
+		mmioRead
+		mmioSeek
+		mmioSetInfo
+; kernel32
+		CreateFileA
+; patchlib
+		LoadSystemDll

@@ -1,0 +1,12 @@
+﻿Touhou Vorbis Compressor
+------------------------
+Changelog
+------------------------
+
+
+NOTE: This file only lists changes to the patch DLL code.
+      Refer to the thvc changelog for changes to supported games and the user interface program.
+
+
+- 2011/05/22 (Version 1.0)
+* Initial release

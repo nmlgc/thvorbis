@@ -1,0 +1,24 @@
+1       VERSIONINFO
+FILEVERSION     1,0\0
+FILEFLAGSMASK   0X3FL
+FILEFLAGS       0L
+FILEOS          0X40004L
+FILETYPE        0X2
+FILESUBTYPE     0
+BEGIN
+        BLOCK "StringFileInfo"
+        BEGIN
+                BLOCK "040904B0"
+                BEGIN
+                        VALUE "FileVersion", "1.0"
+                        VALUE "FileDescription", "Touhou Vorbis Patch - Proxy DLL"
+						VALUE "LegalCopyright", """©"" Nmlgc, 2011"
+                        VALUE "ProductName", "Touhou Vorbis Compressor"
+						VALUE "Homepage", "http://bit.ly/touhou_vorbis"
+                END
+        END
+        BLOCK "VarFileInfo"
+        BEGIN
+                VALUE "Translation", 0x0409, 0x04B0
+        END
+END

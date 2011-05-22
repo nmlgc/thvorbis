@@ -1,0 +1,9 @@
+LIBRARY
+EXPORTS
+; kernel32	
+		CreateFileA
+		ReadFile
+		SetFilePointer
+		CloseHandle
+; patchlib
+		LoadSystemDll

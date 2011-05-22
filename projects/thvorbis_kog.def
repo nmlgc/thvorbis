@@ -1,0 +1,36 @@
+LIBRARY
+EXPORTS
+; winmm
+
+; MIDI (dummy)
+;		midiOutClose
+;		midiOutGetDevCapsA
+;		midiOutGetNumDevs
+;		midiOutLongMsg
+;		midiOutOpen
+;		midiOutPrepareHeader
+;		midiOutReset
+;		midiOutShortMsg
+;		midiOutUnprepareHeader
+; mmio (intercepted)
+ 		mmioAdvance
+ 		mmioAscend
+ 		mmioClose
+ 		mmioDescend
+ 		mmioGetInfo
+ 		mmioOpenA
+ 		mmioOpenW
+ 		mmioRead
+ 		mmioSeek
+ 		mmioSetInfo
+ ; kernel32
+		CreateFileA
+; Timer (dummy)
+;		timeBeginPeriod
+;		timeEndPeriod
+;		timeGetDevCaps
+;		timeGetTime
+;		timeSetEvent
+;		timeKillEvent
+; patchlib
+		LoadSystemDll

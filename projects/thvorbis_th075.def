@@ -1,0 +1,11 @@
+LIBRARY	
+EXPORTS
+; d3d8
+		Direct3DCreate8
+; kernel32	
+		CreateFileA
+		ReadFile
+		SetFilePointer
+		CloseHandle
+; patchlib
+		LoadSystemDll

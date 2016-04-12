@@ -1,9 +1,12 @@
-// Touhou Vorbis Compressor
-// Shared patch library
-// ------------------------
-// patch.h - Import Address Table Patching functions and DLL function declaration/definition macros
-// ------------------------
-// "©" Nmlgc, 2011
+/*
+ * Touhou Vorbis Compressor
+ * Shared patch library
+ *
+ * ----
+ *
+ * Import Address Table patching functions and DLL function declaration/
+ * definition macros.
+ */
 
 #ifndef PATCHLIB_PATCH_H
 #define PATCHLIB_PATCH_H

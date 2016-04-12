@@ -1,9 +1,11 @@
-// Touhou Vorbis Compressor
-// Shared patch library
-// ------------------------
-// patch_iat.c - Import Address Table Patching
-// ------------------------
-// "©" Nmlgc, 2011
+/*
+ * Touhou Vorbis Compressor
+ * Shared patch library
+ *
+ * ----
+ *
+ * Import Address Table patching.
+ */
 
 #include <windows.h>
 #include "patch.h"

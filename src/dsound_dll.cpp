@@ -1,9 +1,11 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// dsound_dll.cpp - DirectSound DLL hooking
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * DirectSound API hooks.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #include <windows.h>
 extern "C"

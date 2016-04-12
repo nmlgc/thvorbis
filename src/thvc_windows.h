@@ -1,8 +1,11 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// thvc_windows.h - Alternative Windows master header _not_ defining the file handling functions
-// ------------------------
-// "©" Nmlgc, 2011
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * Alternative Windows master header *not* defining the file handling
+ * functions.
+ */
 
 /*++ BUILD Version: 0001    Increment this if a change has global effects
 

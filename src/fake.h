@@ -1,8 +1,10 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// fake.h - Shared data faking functions
-// ------------------------
-// "©" Nmlgc, 2011
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * Shared data faking functions.
+ */
 
 #ifndef THVORBIS_FAKE_H
 #define THVORBIS_FAKE_H

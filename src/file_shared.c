@@ -1,9 +1,10 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// file_shared.c - Shared file functions
-// ------------------------
-// "©" Nmlgc, 2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * Shared file functions.
+ */
 
 #include <string.h>
 

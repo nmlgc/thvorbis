@@ -1,10 +1,13 @@
-// Touhou Vorbis Compressor - WINMM implementation
-// ------------------------
-// winmm_dummy.c - wraps non-intercepted winmm.dll functions referenced by Kioh Gyoku and th075.
-// Nothing particularly interesting in this file.
-// ------------------------
-// "©" Nmlgc, 2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ * WINMM implementation
+ *
+ * ----
+ *
+ * Wraps non-intercepted winmm.dll functions referenced by Kioh Gyoku and
+ * th075. Nothing particularly interesting in this file.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #include <windows.h>
 #include "thvc_mmsystem.h"

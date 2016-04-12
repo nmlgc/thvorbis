@@ -1,10 +1,12 @@
-// Touhou Vorbis Compressor
-// Shared patch library
-// ------------------------
-// sysdll.c - System DLL loader
-// ------------------------
-// "©" Nmlgc, 2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ * Shared patch library
+ *
+ * ----
+ *
+ * System DLL loader.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #include <windows.h>
 #include <stdio.h>

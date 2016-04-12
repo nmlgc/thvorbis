@@ -1,9 +1,12 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// read_th075.c - TH075 decode calls
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ * TH075 implementation
+ *
+ * ----
+ *
+ * TH075 decode calls.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #include "thvc_windows.h"
 #include <stdlib.h>

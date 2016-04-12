@@ -1,9 +1,12 @@
-// Touhou Vorbis Compressor - TH075 implementation
-// ------------------------
-// d3d8_dummy.c - wraps the d3d8 functions
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ * TH075 implementation
+ *
+ * ----
+ *
+ * D3D8 API hook.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #include <windows.h>
 #include <mmsystem.h>

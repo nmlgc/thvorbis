@@ -1,9 +1,11 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// thvorbis_generic.h - Definitions for the generic implementation
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * Definitions for the generic implementation.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #ifndef THVORBIS_THVORBIS_GENERIC_H
 #define THVORBIS_THVORBIS_GENERIC_H

@@ -1,9 +1,12 @@
-// Touhou Vorbis Compressor - WINMM/TH06 implementation
-// ------------------------
-// mmio_th06.c - dummies out the mmio processing for TH06
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ * WINMM/TH06 implementation
+ *
+ * ----
+ *
+ * Dummies out the mmio processing for TH06.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #include "thvc_windows.h"
 #include "thvc_mmsystem.h"

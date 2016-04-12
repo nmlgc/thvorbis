@@ -1,9 +1,11 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// thvorbis_dll.c - DLL hooking
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * Shared data and DLL entry points.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #include <windows.h>
 #include "thvorbis.h"

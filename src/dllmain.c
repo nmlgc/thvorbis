@@ -1,10 +1,12 @@
-// Touhou Vorbis Compressor
-// Shared patch library
-// ------------------------
-// dllmain.c - DLL entry point
-// ------------------------
-// "©" Nmlgc, 2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ * Shared patch library
+ *
+ * ----
+ *
+ * DLL entry point.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 // And yes, this _has_ to be included in every project.
 // Visual C++ won't use it when imported from a library

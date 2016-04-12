@@ -1,9 +1,11 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// thvc_IDirectSound8.h - IDirectSound8 hook
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * IDirectSound8 hook.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #ifndef THVC_IDIRECTSOUND8_H
 #define THVC_IDIRECTSOUND8_H

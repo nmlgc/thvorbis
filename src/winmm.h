@@ -1,9 +1,12 @@
-// Touhou Vorbis Compressor - WINMM implementation
-// ------------------------
-// winmm.h - Main DLL code
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ * WINMM implementation
+ *
+ * ----
+ *
+ * Declarations of WinMM hooks, registration functions, and shared data.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #ifndef THVORBIS_WINMM_H
 #define THVORBIS_WINMM_H

@@ -1,9 +1,12 @@
-// Touhou Vorbis Compressor - No Music patch
-// ------------------------
-// nomusic_dll.c - DLL hooking
-// ------------------------
-// "©" Nmlgc, 2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ * No Music patch
+ *
+ * ----
+ *
+ * Win32 hooks, hook registration, and DLL entry points.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #include "thvc_windows.h"
 #include "thvorbis_generic.h"

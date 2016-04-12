@@ -1,9 +1,11 @@
-// Touhou Vorbis Compressor - WINMM implementation
-// ------------------------
-// thvc_mmsystem.h - Alternative mmsystem header _not_ defining our custom functions as dllimport
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * Alternative mmsystem header *not* defining our custom functions as
+ * dllimport.
+ */
 
 /*==========================================================================
  *

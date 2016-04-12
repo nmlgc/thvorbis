@@ -1,9 +1,11 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// read_generic.c - Generic Touhou Vorbis decode calls
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * Generic decode calls.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #include "thvc_windows.h"
 #include "thvorbis.h"

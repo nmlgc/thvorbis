@@ -1,9 +1,11 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// file.c - Touhou Vorbis file handling
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * File handling.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #include "thvc_windows.h"
 #include "thvorbis.h"

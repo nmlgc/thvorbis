@@ -1,9 +1,11 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// dsound_dll.h - DirectSound DLL hooking
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * Declarations of DirectSound hooks and shared data.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 // Visual C++ 6.0
 // typedef unsigned long*	DWORD_PTR;

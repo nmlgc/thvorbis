@@ -1,9 +1,11 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// thvorbis.h - Shared declarations
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * Shared declarations.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #ifndef THVORBIS_THVORBIS_H
 #define THVORBIS_THVORBIS_H

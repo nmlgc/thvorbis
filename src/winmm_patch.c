@@ -1,9 +1,12 @@
-// Touhou Vorbis Compressor - WINMM implementation
-// ------------------------
-// winmm_patch.c - DLL hooking
-// ------------------------
-// "©" Nmlgc, 2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ * WINMM implementation
+ *
+ * ----
+ *
+ * Win32 API hook registration.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #include "thvc_windows.h"
 #include "thvc_mmsystem.h"

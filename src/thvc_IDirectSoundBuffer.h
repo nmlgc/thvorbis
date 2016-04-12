@@ -1,9 +1,11 @@
-// Touhou Vorbis Compressor
-// ------------------------
-// thvc_IDirectSoundBuffer.h - IDirectSoundBuffer hook
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ *
+ * ----
+ *
+ * IDirectSoundBuffer hook.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #ifndef THVC_IDIRECTSOUNDBUFFER_H
 #define THVC_IDIRECTSOUNDBUFFER_H

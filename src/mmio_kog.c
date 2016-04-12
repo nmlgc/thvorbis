@@ -1,9 +1,12 @@
-// Touhou Vorbis Compressor - WINMM implementation
-// ------------------------
-// mmio_kog.c - Kioh Gyoku decode calls
-// ------------------------
-// "©" Nmlgc, 2010-2011
-// DLL hooking adopted from jisakujien's "noflashmyon" source
+/*
+ * Touhou Vorbis Compressor
+ * WINMM implementation
+ *
+ * ----
+ *
+ * Kioh Gyoku decode calls.
+ * (DLL hooking adopted from jisakujien's "noflashmyon" source.)
+ */
 
 #include <windows.h>
 #include "thvc_mmsystem.h"
